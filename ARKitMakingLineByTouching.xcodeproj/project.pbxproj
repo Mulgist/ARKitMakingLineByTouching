@@ -13,6 +13,8 @@
 		04894DB82072074200C4B7A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04894DB62072074200C4B7A5 /* Main.storyboard */; };
 		04894DBA2072074300C4B7A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04894DB92072074300C4B7A5 /* Assets.xcassets */; };
 		04894DBD2072074300C4B7A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04894DBB2072074300C4B7A5 /* LaunchScreen.storyboard */; };
+		04894DC6207213A500C4B7A5 /* BoxNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04894DC5207213A500C4B7A5 /* BoxNode.swift */; };
+		04894DC8207213AD00C4B7A5 /* SphereNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04894DC7207213AD00C4B7A5 /* SphereNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		04894DB92072074300C4B7A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04894DBC2072074300C4B7A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04894DBE2072074300C4B7A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04894DC5207213A500C4B7A5 /* BoxNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxNode.swift; sourceTree = "<group>"; };
+		04894DC7207213AD00C4B7A5 /* SphereNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		04894DAF2072074200C4B7A5 /* ARKitMakingLineByTouching */ = {
 			isa = PBXGroup;
 			children = (
+				04894DC42072138D00C4B7A5 /* Nodes */,
 				04894DB02072074200C4B7A5 /* AppDelegate.swift */,
 				04894DB22072074200C4B7A5 /* art.scnassets */,
 				04894DB42072074200C4B7A5 /* MainVC.swift */,
@@ -65,6 +70,15 @@
 				04894DBE2072074300C4B7A5 /* Info.plist */,
 			);
 			path = ARKitMakingLineByTouching;
+			sourceTree = "<group>";
+		};
+		04894DC42072138D00C4B7A5 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				04894DC5207213A500C4B7A5 /* BoxNode.swift */,
+				04894DC7207213AD00C4B7A5 /* SphereNode.swift */,
+			);
+			path = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04894DC6207213A500C4B7A5 /* BoxNode.swift in Sources */,
 				04894DB52072074200C4B7A5 /* MainVC.swift in Sources */,
+				04894DC8207213AD00C4B7A5 /* SphereNode.swift in Sources */,
 				04894DB12072074200C4B7A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
